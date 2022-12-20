@@ -4,7 +4,7 @@ import { useBlockNumber, useNetwork } from 'wagmi'
 import { GetNetworkColor } from 'utils/network'
 import { LinkComponent } from './LinkComponent'
 
-export function NetworkStatus() {
+export function NetworkStatus () {
   const block = useBlockNumber({ watch: true })
   const network = useNetwork()
   const explorerUrl = network.chain?.blockExplorers?.default.url

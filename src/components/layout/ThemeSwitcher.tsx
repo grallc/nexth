@@ -6,7 +6,7 @@ interface Props {
   className?: string
 }
 
-export function ThemeSwitcher(props: Props) {
+export function ThemeSwitcher (props: Props) {
   const className = props.className ?? ''
   const { colorMode, toggleColorMode } = useColorMode()
 

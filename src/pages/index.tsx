@@ -1,8 +1,9 @@
+import React from 'react'
 import { Heading, Text } from '@chakra-ui/react'
 import { Head } from 'components/layout/Head'
 import { SITE_DESCRIPTION, SITE_NAME } from 'utils/config'
 
-export default function Home() {
+export default function Home () {
   return (
     <>
       <Head />

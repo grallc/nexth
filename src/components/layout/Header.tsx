@@ -9,7 +9,7 @@ interface Props {
   className?: string
 }
 
-export function Header(props: Props) {
+export function Header (props: Props) {
   const className = props.className ?? ''
 
   return (

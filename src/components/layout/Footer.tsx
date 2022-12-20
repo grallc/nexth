@@ -2,13 +2,13 @@ import React from 'react'
 import { Flex, Text } from '@chakra-ui/react'
 import { FaGithub, FaTwitter } from 'react-icons/fa'
 import { LinkComponent } from 'components/LinkComponent'
-import { SITE_DESCRIPTION, SITE_NAME, SOCIAL_GITHUB, SOCIAL_TWITTER } from 'utils/config'
+import { SITE_DESCRIPTION, SOCIAL_GITHUB, SOCIAL_TWITTER } from 'utils/config'
 
 interface Props {
   className?: string
 }
 
-export function Footer(props: Props) {
+export function Footer (props: Props) {
   const className = props.className ?? ''
 
   return (

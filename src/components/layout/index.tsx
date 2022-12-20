@@ -8,7 +8,7 @@ interface Props {
   children: ReactNode
 }
 
-export function Layout(props: Props) {
+export function Layout (props: Props) {
   return (
     <Box margin="0 auto" minH="100vh">
       <Header />
